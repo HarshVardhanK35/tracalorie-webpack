@@ -2,7 +2,7 @@ import './css/bootstrap.css';
 import './css/style.css';
 
 import CalorieTracker from './Tracker';
-import { Meal, Workout } from './item';
+import { Meal, Workout } from './Item';
 
 import '@fortawesome/fontawesome-free/js/all';
 import { Modal, Collapse } from 'bootstrap';
@@ -68,9 +68,6 @@ import { Modal, Collapse } from 'bootstrap';
 //     })
 //   }
 // }
-
-
-
 class App{
   // ----------------------- Created class App{} another time for not to repeat same code for both meal and workout
   constructor(){
